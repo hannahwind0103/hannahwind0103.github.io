@@ -1,0 +1,37 @@
+---
+title: "about me"
+author: "CNC"
+date: "2021/10/11"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+today<- Sys.Date()
+birthday <- as.Date("1996-01-03")
+```
+
+
+#自我介紹
+嗨，我是Hannah
+
+目前就讀成功大學心理所
+
+自從我出生到現在已經過了`r today - birthday`天
+
+我喜歡攝影與寫作，有時會用閱讀來找答案或是逃避現實
+
+這是我拍的照片加上我的手寫字(有做成明信片)
+![](3m.png)
+
+我之前在台北讀大學，依據時序蒐集了陽明山的四季
+![](5m.JPG)
+
+我有一隻小兔子名叫雪寶，他長得很像女生但實際上是男生。
+![](cover.jpg)
+
+
+
